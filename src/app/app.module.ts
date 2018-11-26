@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { BoreholesComponent } from './boreholes/boreholes.component';
+import { DetailsComponent } from './details/details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
     SidebarComponent,
-    BoreholesComponent
+    BoreholesComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
